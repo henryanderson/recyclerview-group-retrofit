@@ -1,0 +1,15 @@
+
+1. MainActivity
+   - menggunakan layout activity_main.php
+   - menarik data json
+   - memsukkan data ke AdapterKategori
+
+2. AdapterKategori
+   - menggunakan layout recyclerview_item_list.xml
+   - mengolah data menjadi memiliki group by date
+   - hold tvHeader dengan menggunakan data index 0
+   - hold item rvList dengan memanggil class AdapterItem
+
+3. AdapterItem
+   - menggunakan layout card_item.xml
+   - hold tvName, tvHobi
